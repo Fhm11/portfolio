@@ -11,7 +11,7 @@ export const portfolioConfig = {
     skills: ["React", "Node.js", "Python", "Javascript", "PHP", "HTML", "CSS", "MySQL", "Git", "Java", "SQL", "Excel/google sheet", "canva", "Figma", "IA"],
     values: [
       "Code propre",
-      "optimisation",
+      "Optimisation",
       "Design moderne et intuitif",
     ]
   },
