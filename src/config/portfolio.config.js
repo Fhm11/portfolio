@@ -1,5 +1,5 @@
 export const portfolioConfig = {
-  name: "Fahim Meziani",
+  name: "Fahim-Meziani",
   title: "Etudiant BUT Informatique - Développeur Web",
   tagline: "Developpeur junior",
   email: "fahim.meziani54@gmail.com",
@@ -18,24 +18,10 @@ export const portfolioConfig = {
   
   projects: [
     {
-      title: "E-Commerce Platform",
-      description: "Plateforme de commerce électronique avec paiement intégré et gestion d'inventaire en temps réel.",
-      tags: ["React", "Node.js", "Stripe"],
-      image: "🛍️",
-      link: "#"
-    },
-    {
-      title: "AI Chat Application",
-      description: "Application de chat propulsée par IA avec analyse de sentiment et traduction automatique.",
-      tags: ["Python", "TensorFlow", "WebSocket"],
-      image: "🤖",
-      link: "#"
-    },
-    {
-      title: "Dashboard Analytics",
-      description: "Tableau de bord analytique avec visualisations interactives et exports de données.",
-      tags: ["React", "D3.js", "Express"],
-      image: "📊",
+      title: "Mon Portfolio",
+      description: "Portfolio personnel développé avec React et Tailwind CSS pour présenter mes compétences et projets.",
+      tags: ["React", "Tailwind CSS", "JavaScript"," HTML", "CSS", "Vite","Git", "GitHub"],
+      image: "🧑‍💻",
       link: "#"
     }
   ],
@@ -45,7 +31,7 @@ export const portfolioConfig = {
       role: "Aucune expérience professionnelle pour le moment",
       company: "",
       period: "",
-      description: ""
+      description: "Malheureusement, je n'ai pas encore eu l'opportunité d'acquérir une expérience professionnelle dans le domaine du développement web. Cependant, actuellement étudiant en BUT Informatique, je suis très motivé à apprendre et à développer mes compétences techniques. apprise lors de plusieurs projets académique et personnels.",
     },
   ]
 };
