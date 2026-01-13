@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { scrollToSection } from '../hooks/useScrollTracking';
 
 export const Navigation = ({ isMenuOpen, setIsMenuOpen, activeSection, config }) => {
-  const menuItems = ['home', 'about', 'projects', 'experience', 'contact'];
+  const menuItems = ['accueil', 'à propos', 'projets', 'experience', 'contact'];
 
   const handleClick = (item) => {
     scrollToSection(item);

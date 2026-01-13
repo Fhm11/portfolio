@@ -3,7 +3,7 @@ import { User } from 'lucide-react';
 
 export const About = ({ config }) => {
   return (
-    <section id="about" className="min-h-screen flex items-center py-20 px-4 relative z-10">
+    <section id="à propos" className="min-h-screen flex items-center py-20 px-4 relative z-10">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
           <User className="w-8 h-8 text-purple-400" />

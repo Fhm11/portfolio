@@ -4,7 +4,7 @@ import { scrollToSection } from '../hooks/useScrollTracking';
 
 export const Hero = ({ config }) => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative px-4">
+    <section id="accueil" className="min-h-screen flex items-center justify-center relative px-4">
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="inline-block mb-6 px-6 py-2 bg-purple-500/20 rounded-full border border-purple-500/30 backdrop-blur-sm">
           <span className="text-purple-300">Bienvenue sur mon portfolio</span>

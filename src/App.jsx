@@ -14,7 +14,7 @@ import './styles/animations.css';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const activeSection = useScrollTracking(['home', 'about', 'projects', 'experience', 'contact']);
+  const activeSection = useScrollTracking(['accueil', 'à propos', 'projets', 'experience', 'contact']);
   const mousePosition = useMousePosition();
 
   return (
