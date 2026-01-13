@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, ExternalLink } from 'lucide-react';
+import { Code, ExternalLink, Github } from 'lucide-react';
 
 export const Projects = ({ config }) => {
   return (
@@ -28,12 +28,24 @@ export const Projects = ({ config }) => {
                   </span>
                 ))}
               </div>
-              <a 
-                href={project.link}
-                className="flex items-center gap-2 text-purple-400 hover:gap-3 transition-all"
-              >
-                Voir le projet <ExternalLink className="w-4 h-4" />
-              </a>
+              <div className="flex gap-4">
+                <a 
+                  href={project.link}
+                  className="flex items-center gap-2 text-purple-400 hover:gap-3 transition-all"
+                >
+                  Voir le projet <ExternalLink className="w-4 h-4" />
+                </a>
+                {project.github && (
+                  <a 
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-purple-400 hover:gap-3 transition-all"
+                  >
+                    Code <Github className="w-4 h-4" />
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

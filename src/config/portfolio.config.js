@@ -22,7 +22,8 @@ export const portfolioConfig = {
       description: "Portfolio personnel développé avec React et Tailwind CSS pour présenter mes compétences et projets.",
       tags: ["React", "Tailwind CSS", "JavaScript"," HTML", "CSS", "Vite","Git", "GitHub"],
       image: "🧑‍💻",
-      link: "#"
+      link: "#",
+      github: "https://github.com/Fhm11/portfolio"
     }
   ],
   
